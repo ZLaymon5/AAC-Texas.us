@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudflare WARP Instructions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            min-height: 100vh;
+        }
+        .main-content {
+            max-width: 700px;
+            width: 100%;
+        }
+ 
+        h1 {
+            color: #d97706;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+ 
+        h1 span {
+            color: #1f2937;
+            font-size: 20px;
+            font-weight: normal;
+            display: inline-block;
+            margin-left: 10px;
+        }
+ 
+        h2 {
+            font-size: 20px;
+            color: #374151;
+            margin-top: 30px;
+        }
+ 
+        ul {
+            padding-left: 20px;
+        }
+ 
+        li {
+            margin-bottom: 12px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        footer {
+            <div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #333333; color: #ffffff; text-align: center; padding: 15px 0; font-family: sans-serif; font-size: 14px; z-index: 9999;">
+    &copy; 2024 GNT Security. All rights reserved. | For support, contact <a href="mailto:support@gntsecurity.rmmservices.net" style="color: #ffffff; text-decoration: underline;">support@gntsecurity.rmmservices.net</a>
+</div>
+        }
+        
+        a {
+            color: #2563eb;
+        }
+    </style>
+</head>
+<body>
+<div class="main-content">
+<h1>CloudFlare WARP Instructions</h1>
+<h2>AAC Texas Windows</h2>
+<ul>
+Download Cloudflare WARP for Windows. https://one.one.one.one/</a></li>
+<li>Open the downloaded installer and follow the setup steps.</li>
+<li>Once installed, WARP will launch automatically and appear in your system tray.</li>
+<li>Click Next and accept Cloudflare's Privacy Policy.</li>
+<li>Launch Cloudflare on your device.</li>
+When prompted to sign in, enter your full angstorm-usa.com email address.</li>
+<li>For the Location or gateway dropdown, select AAC-Texas Gateway.</li>
+<li>Complete MFA when prompted, once connected your IP will route through AAC- Texas mode.</li>
+<li>Turn on the WARP toggle to connect.</li>
+<li>You are all set - WARP is now running and helping protect your internet connection.</li>
+</ul>
+<h2>How to remove the application</h2>
+<ul>
+<li>Select the Start menu and search for Settings. You can also press Win + I.</li>
+<li>Select Apps &gt; App &amp; Features.</li>
+<li>Scroll down to Cloudflare WARP and select Uninstall.</li>
+<footer>For Additional Support, Contact support@gntsecurity.rmmservices.net</footer>
+</ul>
+</div>
+</body>
+</html>
