@@ -9,8 +9,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-size: 100px auto;
-            background-repeat: no-repeat;
+            background: #ffffff;
             margin: 0;
             padding: 40px 20px;
             display: flex;
@@ -18,13 +17,16 @@
             min-height: 100vh;
         }
 
-        /* Cloud animation */
         @keyframes moveClouds {
-            from { background-position: 0 0; }
-            to { background-position: -2000px 0; }
+            from {
+                background-position: 0 0;
+            }
+
+            to {
+                background-position: -2000px 0;
+            }
         }
 
-        /* Top-right logo */
         .corner-logo {
             position: fixed;
             top: 10px;
@@ -82,33 +84,32 @@
 
 <body>
 
-<!-- Top-right logo -->
-<img src="logo.png" alt="Company Logo" class="corner-logo">
+    <img src="logo.png" alt="Company Logo" class="corner-logo">
 
-<div class="main-content">
+    <div class="main-content">
 
-<h1>CloudFlare WARP Instructions <span>AAC Texas Windows</span></h1>
+        <h1>CloudFlare WARP Instructions <span>AAC Texas Windows</span></h1>
 
-<ul>
-    <li>Download Cloudflare WARP for Windows. <a href="https://one.one.one.one/" target="_blank">https://one.one.one.one/</a></li>
-    <li>Open the downloaded installer and follow the setup steps.</li>
-    <li>Once installed, WARP will launch automatically and appear in your system tray.</li>
-    <li>Click Next and accept Cloudflare's Privacy Policy.</li>
-    <li>Launch Cloudflare on your device.</li>
-    <li>When prompted to sign in, enter your full angstorm-usa.com email address.</li>
-    <li>For the Location or gateway dropdown, select AAC-Texas Gateway.</li>
-    <li>Complete MFA when prompted; once connected your IP will route through AAC-Texas mode.</li>
-    <li>Turn on the WARP toggle to connect.</li>
-    <li>You are all set — WARP is now running and connected to your network.</li>
-</ul>
+        <ul>
+            <li>Download Cloudflare WARP for Windows. <a href="https://one.one.one.one/" target="_blank">https://one.one.one.one/</a></li>
+            <li>Open the downloaded installer and follow the setup steps.</li>
+            <li>Once installed, WARP will launch automatically and appear in your system tray.</li>
+            <li>Click Next and accept Cloudflare's Privacy Policy.</li>
+            <li>Launch Cloudflare on your device.</li>
+            <li>When prompted to sign in, enter your full angstorm-usa.com email address.</li>
+            <li>For the Location or gateway dropdown, select AAC-Texas Gateway.</li>
+            <li>Complete MFA when prompted; once connected your IP will route through AAC-Texas mode.</li>
+            <li>Turn on the WARP toggle to connect.</li>
+            <li>You are all set — WARP is now running and connected to your network.</li>
+        </ul>
 
-<footer>
-    For Additional Support, Contact <a href="mailto:support@gntsecurity.rmmservices.net">support@gntsecurity.rmmservices.net</a><br>
-    <a href="https:https://gntsecurity.com/" target="_blank">
-    </a>
-</footer>
+        <footer>
+            For Additional Support, Contact <a href="mailto:support@gntsecurity.rmmservices.net">support@gntsecurity.rmmservices.net</a><br>
+            <a href="https://gntsecurity.com/" target="_blank">gntsecurity.com</a>
+        </footer>
 
-</div>
+    </div>
 
 </body>
+
 </html>
